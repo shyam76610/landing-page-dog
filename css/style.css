@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.gradient-background{
+    background: linear-gradient(300deg,#00bfff,#ff4c68,#ef8172);
+    animation: gradientbackground 18s ease infinite;
+
+}
+@keyframes gradient-background{
+0%{
+    background-position: 0% 50%;
+}
+50%{
+    background-position: 100% 50%;
+}
+100%{
+    background-position: 0% 50%;
+}
+}
+.icon-square{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+.testimonial>.container>img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.profile-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.tech>h2{
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    width: 100;
+  
+}
+.mas>h2{
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.footer-list{
+        background: linear-gradient(300deg,#00bfff,#ff4c68,#ef8172);
+        animation: footerlinear 18s ease infinite;
+    
+    }
+    @keyframes footerlinear{
+        0%{
+            background-position: 0% 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0% 50%;
+        }
+        }
+  
+
